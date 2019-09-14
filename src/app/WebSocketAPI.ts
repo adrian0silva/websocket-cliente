@@ -3,7 +3,7 @@ import * as SockJS from 'sockjs-client';
 import { AppComponent } from './app.component';
 
 export class WebSocketAPI {
-    webSocketEndPoint: string = 'https://websocket-teste.herokuapp.com/';
+    webSocketEndPoint: string = 'https://websocket-teste.herokuapp.com/ws';
     topic: string = "/topic/greetings";
     stompClient: any;
     appComponent: AppComponent;
